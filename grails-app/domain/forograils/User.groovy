@@ -14,5 +14,6 @@ class User {
         age(min: 13)
         username(blank: false, unique: true)
         password(blank: false, minSize: 8) //TODO: debe tener letras minúsculas, al menos una letra mayúscula, al menos un número
+        
     }
 }

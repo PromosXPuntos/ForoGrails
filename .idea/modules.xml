@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ForoGrails.iml" filepath="$PROJECT_DIR$/ForoGrails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForoGrails-grailsPlugins.iml" filepath="$PROJECT_DIR$/ForoGrails-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

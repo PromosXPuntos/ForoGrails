@@ -9,5 +9,10 @@ class User {
     String password
 
     static constraints = {
+        name(blank: false, minSize: 3, maxSize: 50)
+        lastname(blank: false, minSize: 3, maxSize: 50)
+        age(min: 13)
+        username(blank: false, unique: true)
+        password(blank: false, minSize: 8)
     }
 }

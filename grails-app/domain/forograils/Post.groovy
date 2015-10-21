@@ -8,5 +8,6 @@ class Post {
     Boolean itsAllowed
 
     static constraints = {
+        topic(minSize: 3, maxSize: 50)
     }
 }

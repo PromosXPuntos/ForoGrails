@@ -7,6 +7,10 @@ class Post {
     Date lastUpdate
     Boolean itsAllowed
 
+    Forum forum
+    static hasMany = [file:File]
+    static belongsTo = [regular:Regular]
+
     static constraints = {
         topic(minSize: 3, maxSize: 50)
         dateCreate(validator: {return it > new Date()})

@@ -6,7 +6,7 @@ class File {
     Byte[] content
     Double size
 
-    static belongsTo = [file:File]
+    static belongsTo = [forum:Forum]
 
     static constraints = {
         content(maxSize: 10000000)
